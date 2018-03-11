@@ -73,7 +73,7 @@ const webpackConfig = {
             },
 
             {
-                test: /\.(png|jpg|gif|svg)$/,
+                test: /\.(png|jpg|gif|svg|pdf|doc|docx)$/,
                 use: [
                     {
                         loader: 'url-loader',
@@ -139,8 +139,8 @@ module.exports = prod ? webpackMerge(webpackConfig, {
                 }
             }
         }),
-        new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/) ,
-        new BundleAnalyzerPlugin()
+        new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+        // new BundleAnalyzerPlugin()
     ]
     // optimization: {
     //     splitChunks: {
