@@ -1,0 +1,11 @@
+%sub-container {
+  width: 100%;
+  margin: 40px 0;
+  h4 {
+    color: #666;
+    &:hover {
+      color: #000;
+      cursor: pointer;
+    }
+  }
+}

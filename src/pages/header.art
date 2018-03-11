@@ -1,0 +1,181 @@
+<div class="header">
+    <div class="header-user col-md-10 offset-md-1 row">
+      <div class="col-md-3 user-item">
+        <div class="header-user__avatar">
+          <img src="{{userInfo.avatar}}" />
+          <div class="header-user__name text-center">
+            <h3>{{userInfo.name}}</h3>
+            <h4>{{userInfo.job}}</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 text-center user-item">
+        <div class="header-user__contact text-center">
+          <h4>个人信息</h4>
+          <p>{{userInfo.experience}}</p>
+          <p>{{userInfo.age}}</p>
+          <p>{{userInfo.address}}</p>
+          <p>{{userInfo.profession}}</p>
+          </div>
+      </div>
+      <div class="col-md-3 text-center user-item">
+        <div class="header-user__contact text-center">
+          <h4>联系我</h4>
+          <p>{{userInfo.education}}</p>
+          <p>{{userInfo.phone}}</p>
+          <p>{{userInfo.email}}</p>
+          <p>{{userInfo.sex}}</p>
+          </div>
+      </div>
+      <div class="col-md-3 user-item">
+        <div class="header-user__follow">
+          <h4 class="text-center">follow me</h4>
+          <div class="row text-center">
+            <div class="col-md-4 col-sm-4 col-4">
+              <a href="http://wpa.qq.com/msgrd?v=3&uin=2860144252&site=在线客服&menu=yes">
+                <i class="fa fa-qq"></i>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4">
+              <a href="#">
+                <i class="fa fa-wechat"></i>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4">
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-4 col-sm-4 col-4">
+              <a href="#">
+                <i class="fa fa-weibo"></i>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4">
+              <a href="#">
+                <i class="fa fa-facebook-square"></i>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4">
+              <a href="#">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="work">
+  <div class="work-title text-center">
+      <h4>工作经历</h4>
+      <div class="hr"></div>
+  </div>
+  <div class="col-md-10 offset-md-1">
+    <div class="main-timeline">
+        <div class="timeline">
+            <div class="timeline-icon">
+                <i class="fa fa-star"></i>
+            </div>
+            <div class="timeline-content">
+                <h2 class="title">Web Design</h2>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod fringilla nibh, feugiat pretium velit. Integer elit urna, maximus vitae rutrum hendrerit, pretium sed massa.
+                </p>
+                <a href="#" class="read-more">read more</a>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-icon">
+                <i class="fa fa-star"></i>
+            </div>
+            <div class="timeline-content right">
+                <h2 class="title">Web Development</h2>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod fringilla nibh, feugiat pretium velit. Integer elit urna, maximus vitae rutrum hendrerit, pretium sed massa.
+                </p>
+                <a href="#" class="read-more">read more</a>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-icon">
+                <i class="fa fa-star"></i>
+            </div>
+            <div class="timeline-content">
+                <h2 class="title">Brand Building</h2>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod fringilla nibh, feugiat pretium velit. Integer elit urna, maximus vitae rutrum hendrerit, pretium sed massa.
+                </p>
+                <a href="#" class="read-more">read more</a>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-icon">
+                <i class="fa fa-star"></i>
+            </div>
+            <div class="timeline-content right">
+                <h2 class="title">Responsive Design</h2>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod fringilla nibh, feugiat pretium velit. Integer elit urna, maximus vitae rutrum hendrerit, pretium sed massa.
+                </p>
+                <a href="#" class="read-more">read more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="skills">
+  <div class="skills-title text-center">
+      <h4>个人技能</h4>
+      <div class="hr"></div> 
+  </div>
+  <div class="skills-content row">
+    <div class="skills-content__words col-md-6 col-sm-12 text-center" style="padding-top: 50px;">
+      <p>熟练掌握Photoshop, 能独立设计网页和App设计</p>
+      <p>熟练掌握Photoshop, 能独立设计网页和App设计</p>
+      <p>熟练掌握Photoshop, 能独立设计网页和App设计</p>
+      <p>熟练掌握Photoshop, 能独立设计网页和App设计</p>
+      <p>熟练掌握Photoshop, 能独立设计网页和App设计</p>
+      <p>熟练掌握Photoshop, 能独立设计网页和App设计</p>
+      <p>熟练掌握Photoshop, 能独立设计网页和App设计</p>
+      <p>熟练掌握Photoshop, 能独立设计网页和App设计</p>
+    </div>
+    <canvas id="myChart" class="col-md-6 col-sm-12"></canvas>
+  </div>
+</div>
+<div class="collection">
+  <div class="collection-title text-center">
+      <h4>作品集</h4>
+      <div class="hr"></div> 
+  </div>
+  <div class="collection-content col-md-10 offset-md-1">
+    <div class="tabs">
+      <div class="tabs-container">
+        <div class="tabs-slider__wrapper" id="tabSlider">
+        </div>
+        {{each userInfo.tabs}}
+          <div class="tabs-div">
+            <a href="javascript:;">{{$value.title}}</a>
+          </div>
+        {{/each}}
+      </div>
+      <div class="row">
+      {{each userInfo.tabs}}
+        <div class="tabs-item__content col-md-4 col-sm-12">
+          <div class="tabs-item__body">
+            <div class="tabs-item__media">
+              <img src="../assets/images/g3.jpg" />
+            </div>
+          </div>
+        </div>
+      {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
