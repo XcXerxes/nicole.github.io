@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --content-base src/ --mode development",
-    "build": "NODE_ENV='production' webpack --mode 'production' & git add . & git commit -m 'update dist' & git push -u origin gh-pages"
+    "build": "NODE_ENV='production' webpack --mode 'production' && git add . && git commit -m 'update dist' && git push -u origin gh-pages"
   },
   "devDependencies": {
     "autoprefixer": "^8.1.0",
