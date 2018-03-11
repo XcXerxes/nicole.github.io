@@ -11,8 +11,8 @@ export default {
   profession: '艺术设计',
   education: '本科',
   tabs: [
-    {title: '全部ALL'},
-    {title: '移动App'},
-    {title: 'Web PC'}
+    {title: '全部ALL', type: 'all'},
+    {title: '移动App', type: 'mobile'},
+    {title: 'Web PC', type: 'web'}
   ]
 }

@@ -160,22 +160,44 @@
         <div class="tabs-slider__wrapper" id="tabSlider">
         </div>
         {{each userInfo.tabs}}
-          <div class="tabs-div">
+          <div class="tabs-div" type="{{$value.type}}">
             <a href="javascript:;">{{$value.title}}</a>
           </div>
         {{/each}}
       </div>
-      <div class="row">
-      {{each userInfo.tabs}}
-        <div class="tabs-item__content col-md-4 col-sm-12">
-          <div class="tabs-item__body">
-            <div class="tabs-item__media">
+      <div>
+        <div class="tabs-item__content active" data-type="all">
+          <div class="tabs-item__body col-md-4 col-sm-12">
+            <div class="tabs-item__media col-md-12">
               <img src="../assets/images/g3.jpg" />
             </div>
           </div>
         </div>
-      {{/each}}
+        <div class="tabs-item__content" data-type="mobile">
+          <div class="tabs-item__body col-md-4 col-sm-12">
+            <div class="tabs-item__media col-md-12">
+              <img src="../assets/images/g3.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="tabs-item__content" data-type="web">
+          <div class="tabs-item__body col-md-4 col-sm-12"">
+            <div class="tabs-item__media col-md-12">
+              <img src="../assets/images/g3.jpg" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+</div>
+<div class="downloads">
+  <div class="downloads-title text-center">
+    <h4>简历下载</h4>
+    <div class="hr"></div>
+  </div>
+  <div class="col-md-12 text-center">
+    <p>需要查看线下简历，请点击按钮下载!</p>
+    <button id="downloads" type="button" class="btn btn-outline-primary">Download</button>
   </div>
 </div>
